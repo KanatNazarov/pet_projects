@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Didact%20Gothic);
+
+body{
+	background: linear-gradient(to right, black, #2C2928);
+
+}
+
+
+#first {
+	margin-top: 300px;
+	text-align:center;
+	/*margin: 49px auto;*/
+	color: white;
+	font-size: 70px;
+	font-family: "Didact Gothic", sans-serif;
+	animation: cssload-breathe 3.00s ease;
+		-o-animation: cssload-breathe 3.00s ease;
+		-ms-animation: cssload-breathe 3.00s ease;
+		-webkit-animation: cssload-breathe 3.00s ease;
+		-moz-animation: cssload-breathe 3.00s ease;
+}
+
+
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 37px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+
+
+.second {
+	margin-top: 300px;
+    /*margin-bottom: -100px;*/
+	text-align:center;
+	/*margin: 49px auto;*/
+	color: white;
+	font-size: 60px;
+	font-family: "Didact Gothic", sans-serif;
+	animation: cssload-breathe 6.05s ease;
+		-o-animation: cssload-breathe 6.05s ease;
+		-ms-animation: cssload-breathe 6.05s ease;
+		-webkit-animation: cssload-breathe 6.05s ease;
+		-moz-animation: cssload-breathe 6.05s ease;
+}
+
+
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 37px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+
+@media (max-width: 480px){
+	.body{
+margin: 0 auto;
+	}
+
+	.second{
+		transform: scale(0.7);
+	}
+	#first{
+		transform: scale(0.7);
+	}
+}
+
+.mmain{
+	color: white;
+}
